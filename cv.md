@@ -1,6 +1,6 @@
 # **Tatyana Milevskaya**
 
-![myphoto](myphoto.jpg)g
+![myphoto](myphoto.jpg)
 
 ## **Contacts**
 
@@ -8,6 +8,7 @@
 - **Phone:** +375447669648
 - **Email:** <tat2024ka@gmail.com>
 - **GitHub:** <https://github.com/Taty4>
+- **Discord:** Tatsiana (@Taty4)
 
 ## **About me**
 
