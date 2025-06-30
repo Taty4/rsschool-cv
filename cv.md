@@ -1,6 +1,6 @@
 # **Tatyana Milevskaya**
 
-![myphoto](myphoto.jpg)
+![myphoto](myphoto.jpg)g
 
 ## **Contacts**
 
