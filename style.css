@@ -137,6 +137,16 @@ a:hover {
   gap: 1rem;
 }
 
+.experience a {
+  display: block;
+  color: var(--main-color);
+  transition: 0.8s;
+}
+
+.experience a:hover {
+  transform: scale(1.1);
+}
+
 .circle {
   width: 9px;
   height: 9px;
