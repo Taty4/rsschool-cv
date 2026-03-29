@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
@@ -8,212 +8,226 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-</head>
-<body>
-    <div class="wrapper-header">
-        <header class="header">
-            <div class="photo">
-                <img class="my-photo" src="assets/img/IMG_3055.JPG" alt="profile-photo" width="250">
-            </div>
-            <div class="name">
-                <h1>Tatyana Milevskaya</h1>
-                <h3>Frontend Developer</h3>
-            </div>
-        </header>
-    </div>
-    <div class="wrapper-nav">
-        <nav class="nav">
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    >
+  </head>
+  <body>
+    <div class="bgc">
+      <header class="header">
+        <div class="photo">
+          <img
+            class="my-photo"
+            src="assets/img/IMG_3055.webp"
+            alt="profile-photo"
+        >
+        </div>
+        <div class="name">
+          <h1 class="h1">Tatsiana Milevskaya</h1>
+          <p class="h3">Frontend Developer</p>
+        </div>
+      </header>
+      <nav class="nav">
+        <ul>
+          <li class="nav-item">
+            <img
+              src="assets/icon/icons8-пользователь-женщина-в-кружке-50.png"
+              alt="icon">
+            <a href="#about-me" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <img src="assets/icon/icons8-понимание-клиента-50.png" alt="icon">
+            <a href="#experience" class="nav-link"> Experience</a>
+          </li>
+          <li class="nav-item">
+            <img src="assets/icon/icons8-код-50.png" class="icon" alt="icon">
+            <a href="#code" class="nav-link"> Code</a>
+          </li>
+          <li class="nav-item">
+            <img src="assets/icon/icons8-телеграм-50.png" alt="icon">
+            <a href="#projects" class="nav-link"> Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <img src="assets/icon/icons8-контакты-50.png" alt="icon">
+            <a href="#contacts" class="nav-link"> Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <main class="main">
+        <section id="about-me" class="about-me">
+          <h2>About me</h2>
+          <p>
+            I am a motivated and detail-oriented aspiring Front-End Developer
+            currently learning HTML, CSS, and JavaScript, with a growing
+            understanding of Git and version control workflows. I enjoy solving
+            problems through code and developing clean, accessible, and
+            responsive interfaces. Although I’m at the beginning of my web
+            development journey, I am consistently improving my skills by
+            working on small projects, exploring best practices, and learning
+            from real-world examples. I’m eager to join a team where I can
+            continue growing as a developer and contribute to building
+            user-focused digital products.
+          </p>
+        </section>
+        <section class="education">
+          <h2>Education</h2>
+          <ul class="education-ul">
+            <li class="education-ul-item">
+              <img src="assets/icon/icons8-образование-50.png" alt="icon">
+              Belarusian State Technological University, landscape engineer
+            </li>
+            <li class="education-ul-item">
+              <img src="assets/icon/icons8-школа-64.png" alt="icon">
+              RSSchool
+            </li>
+          </ul>
+        </section>
+        <section id="experience" class="experience-skills">
+          <div class="experience">
+            <h2 class="h2-experience">Learning Experience</h2>
+            <p><i>2025 – present</i></p>
             <ul>
-                <li> <img src="assets/icon/icons8-пользователь-женщина-в-кружке-50.png" alt="icon" width="40"
-                        height="40">
-                    <a href="#about-me">About</a>
-                </li>
-                <li>
-                    <img src="assets/icon/icons8-контакты-50.png" class="icon" alt="icon" width="40" height="40">
-                    <a href="#contacts"> Contacts</a>
-                </li>
-                <li>
-                    <img src="assets/icon/icons8-github-50.png" class="icon" alt="icon" width="40" height="40">
-                    <a href="https://github.com/Taty4" target="_blank">GitHub</a>
-                </li>
-                <li>
-                    <img src="assets/icon/icons8-телеграм-50.png" class="icon" alt="icon" width="40" height="40">
-                    <a href="https://t.me/zloykabachok" target="_blank"> Telegram</a>
-                </li>
-                <li>
-                    <img src="assets/icon/icons8-понимание-клиента-50.png" alt="icon" class="icon" width="40"
-                        height="40">
-                    <a href="#experience"> Experience</a>
-                </li>
-                <li>
-                    <img src="assets/icon/icons8-код-50.png" class="icon" alt="icon" width="40" height="40">
-                    <a href="#code"> Code</a>
-                </li>
+              <li class="experience-item">Built pages using HTML, CSS</li>
+              <li class="experience-item">
+                JavaScript challenges (e.g., Codewars) to improve
+                problem-solving skills
+              </li>
+              <li class="experience-item">
+                Learned Git basics and used GitHub to manage code versions
+              </li>
+              <li class="experience-item">
+                Gradually learning responsive design practices and improving
+                user experience (UX).
+              </li>
             </ul>
-        </nav>
-    </div>
-    <div class="wrapper-main">
-        <main class="main">
-            <section id="about-me" class="about-me">
-                <h2>About me</h2>
-                <p>
-                    I am a motivated and detail-oriented aspiring Front-End Developer
-                    currently learning HTML, CSS, and JavaScript, with a growing
-                    understanding of Git and version control workflows. I enjoy solving
-                    problems through code and developing clean, accessible, and responsive
-                    interfaces. Although I’m at the beginning of my web development
-                    journey, I am consistently improving my skills by working on small
-                    projects, exploring best practices, and learning from real-world
-                    examples. I’m eager to join a team where I can continue growing as a
-                    developer and contribute to building user-focused digital products.
-                </p>
-            </section>
-            <section class="education">
-                <h2>Education</h2>
-                <ul>
-                    <li>
-                        <img src="assets/icon/icons8-образование-50.png" alt="icon" width="30"> Belarusian State
-                        Technological
-                        University,
-                        landscape engineer
-                    </li>
-                    <li>
-                        <img src="assets/icon/icons8-школа-64.png" alt="icon" width="30"> RSSchool
-                    </li>
-                </ul>
-            </section>
-            <section id="experience" class="experience">
-                <h2>Projects / Learning Experience</h2>
-                <p class="italic">2024 – present</p>
-                <ul>
-                    <li>
-                        <div class="circle"></div>
-                        Built pages using HTML, CSS
-                    </li>
-                    <li>
-                        <div class="circle"></div>
-                        JavaScript challenges (e.g., Codewars) to improve problem-solving
-                        skills
-                    </li>
-                    <li>
-                        <div class="circle"></div>
-                        Learned Git basics and used GitHub to manage code versions
-                    </li>
-                    <li>
-                        <div class="circle"></div>
-                        Studied the basics of Git and used GitHub for version control.
-                    </li>
-                    <li>
-                        <div class="circle"></div>
-                        Gradually learning responsive design practices and improving user
-                        experience (UX).
-                    </li>
-                    <li>
-                        <div class="circle"></div>
-                        <a href="https://taty4.github.io/shelter/" target="_blank"> Project "Shelter"</a>
-                    </li>
-                </ul>
-            </section>
-            <section class="wrapper-skills">
-                <div id="code" class="code">
-                    <h2>Code Example</h2>
-                    <pre>
+          </div>
+          <div class="skills">
+            <h2 class="h2-skills">Skills</h2>
+            <ul>
+              <li class="skill-item">HTML</li>
+              <li class="skill-item">CSS</li>
+              <li class="skill-item">JavaScript</li>
+              <li class="skill-item">GitHub</li>
+            </ul>
+          </div>
+        </section>
+        <section class="code-and-lang">
+          <div id="code" class="code">
+            <h2>Code Example</h2>
+            <pre>
             <code>
-                function colourAssociation(array){
-                    const arr = [];
-                    for (let i = 0; i &lt; array.length; i++) {
-                      arr.push({ [array[i][0]]: array[i][1] });
-                    }
-                    return arr;
-                  }
-                </code>   
+  function colourAssociation(array){
+      const arr = [];
+      for (let i = 0; i &lt; array.length; i++) {
+        arr.push({ [array[i][0]]: array[i][1] });
+      }
+      return arr;
+  }
+                </code>
             </pre>
+          </div>
+          <div class="language">
+            <h2>Language</h2>
+            <ul class="language-list">
+              <li class="language-item">
+                Russian (native)
+                <div class="progress">
+                  <div class="progress-value-100"></div>
                 </div>
-                <div class="skills">
-                    <h2>Skills</h2>
-                    <ul>
-                        <li>
-                            <div class="circle"></div>
-                            HTML
-                        </li>
-                        <li>
-                            <div class="circle"></div>
-                            CSS
-                        </li>
-                        <li>
-                            <div class="circle"></div>
-                            JavaScript
-                        </li>
-                        <li>
-                            <div class="circle"></div>
-                            GitHub
-                        </li>
-                    </ul>
+              </li>
+              <li class="language-item">
+                English (A2)
+                <div class="progress">
+                  <div class="progress-value-40"></div>
                 </div>
-            </section>
-            <section class="language">
-                <h2>Language</h2>
-                <ul>
-                    <li>
-                        Russian (native)
-                        <div class="progress">
-                            <div class="progress-value-100"></div>
-                        </div>
-                    </li>
-                    <li>
-                        English (A2)
-                        <div class="progress">
-                            <div class="progress-value-40"></div>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-            <section id="contacts" class="contacts">
-                <h2>Contacts</h2>
-                <ul>
-                    <li>
-                        <div class="circle"></div>
-                        <b>Location:</b>
-                        <a href="https://maps.app.goo.gl/YkhQGmMhUYy7GVCK9">Minsk,Belarus</a>
-                    </li>
-                    <li>
-                        <div class="circle"></div>
-                        <b>Phone:</b> <a href="tel:3754476696"> +375447669648</a>
-                    </li>
-                    <li>
-                        <div class="circle"></div>
-                        <b>Email:</b>
-                        <a href="mailto:tat2024ka@gmail.com">tat2024ka@gmail.com</a>
-                    </li>
-                    <li>
-                        <div class="circle"></div>
-                        <b> GitHub:</b>
-                        <a target="_blank" href="https://github.com/Taty4">Taty4</a>
-                    </li>
-                    <li>
-                        <div class="circle"></div>
-                        <b> Discord:</b>
-                        <a href="#">tat204 </a>
-                    </li>
-                </ul>
-            </section>
-        </main>
-    </div>
-    <div class="wrapper-footer">
-        <footer class="footer">
-            <a href="https://github.com/Taty4" target="_blank"><img src="assets/icon/icons8-github-50.png" alt="git"
-                    width="60">
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="projects" class="projects">
+          <h2>My projects</h2>
+          <div class="wrapper-projects">
+            <a
+              href="https://rolling-scopes-school.github.io/jsonicdev-JSFEPRESCHOOL2025Q2/museum/"
+              class="project-item"
+              target="_blank"
+            >
+              <img src="./assets/img/museum.webp" alt="project-museum">
+              <p class="project-name">Museum</p>
             </a>
-            <a href="https://rs.school/courses/javascript-ru" target="_blank"><img src="assets/icon/rs-school-logo.svg"
-                    alt="logo" width="150"></a>
-            <p class="autor">Milevskaya <br>Tatyana 2025</p>
-        </footer>
+            <a
+              href="https://rolling-scopes-school.github.io/taty4-JSFE2025Q3/pair-em-up/"
+              class="project-item"
+              target="_blank"
+            >
+              <img src="./assets/img/pair-em.webp" alt="project-pair-em-up">
+              <p class="project-name">Pair Em Up</p>
+            </a>
+            <a
+              href="https://rolling-scopes-school.github.io/taty4-JSFE2025Q3/portfolio/"
+              class="project-item"
+              target="_blank"
+            >
+              <img src="./assets/img/portfolio.webp" alt="project-portfolio">
+              <p class="project-name">Portfolio</p>
+            </a>
+          </div>
+        </section>
+        <section id="contacts" class="contacts">
+          <h2>Contacts</h2>
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <b>Location:</b>
+              <a
+                class="contacts-link"
+                href="https://maps.app.goo.gl/YkhQGmMhUYy7GVCK9"
+                target="_blank"
+                >Minsk,Belarus</a
+              >
+            </li>
+            <li class="contacts-item">
+              <b>Phone:</b>
+              <a class="contacts-link" href="tel:3754476764"> +375447669***</a>
+            </li>
+            <li class="contacts-item">
+              <b>Email:</b>
+              <a class="contacts-link" href="mailto:tat2024ka@gmail.com"
+                >tat2024ka@gmail.com</a
+              >
+            </li>
+            <li class="contacts-item">
+              <b> GitHub:</b>
+              <a
+                class="contacts-link"
+                target="_blank"
+                href="https://github.com/Taty4"
+                >Taty4</a
+              >
+            </li>
+            <li class="contacts-item">
+              <b> Discord:</b>
+              <span>tat202 </span>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer">
+        <a href="https://github.com/Taty4" target="_blank"
+          ><img
+            class="logo-git"
+            src="assets/icon/icons8-github-50.png"
+            alt="git"
+          >
+        </a>
+        <a href="https://rs.school/courses/javascript" target="_blank"
+          ><img
+            class="logo-rsschool"
+            src="assets/icon/rs-school-logo.svg"
+            alt="logo"
+        ></a>
+        <p class="autor">Milevskaya T. 2026</p>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
